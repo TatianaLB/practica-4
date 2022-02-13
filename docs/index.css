@@ -1,0 +1,18 @@
+*{
+    background-color: rgb(216,210,209);
+}
+
+.navbar-brand{
+    color: white;
+}
+
+
+.titulos{
+    color:rgb(0,81,156);
+    font-size:40px;
+    font-family: "Verdana";
+}
+
+.textomarcas{
+    font-family: "Gadugi";
+}

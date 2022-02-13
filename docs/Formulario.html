@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Formulario - INDITEX</title>
+    <meta charset="utf-8">
+
+
+    <link rel="stylesheet" href="./Formulario.css">
+</head>
+<body>
+<div id="title">
+    <center>
+        <h2>Si deseas ponerte en contacto con nosotros,<br>por favor, rellene el siguiente formulario:</h2>
+    </center>
+</div>
+
+
+    <main>
+        <form action="/your_backend_url" method="post" enctype="application/x-www-form-urlencoded">
+            <center>
+            <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <fieldset>
+                            <legend>Datos personales</legend>
+                            <div class="form-input" id="fname">
+                                <p><label for>
+                                    Nombre*:
+                                </label>
+                                <input type="text" required="required" placeholder="Pedro"></p>
+                            </div>
+                            <div class="form-input" id="fsecname">
+                                <p><label for>
+                                    Segundo nombre:
+                                </label>
+                                <input type="text" placeholder="Antonio"></p>
+                            </div>
+                            <div class="form-input"  id="lname">
+                                <p><label for>
+                                    Primer apellido*:
+                                </label>
+                                <input type="text" required="required" placeholder="López"></p>
+
+                            </div>
+                            <div class="form-input" id="lname2">
+                                <p><label for>
+                                    Segundo apellido:
+                                </label>
+                                <input type="text" placeholder="Vera"></p>
+                            </div>
+                            <div class="form-input"  id="age">
+                                <p><label for>
+                                    Introduzca su fecha de nacimiento*:
+                                </label>
+                                <input type="date" placeholder="Edad" required="required" ></p>
+                            </div>
+                            <div class="form-input" id = "hm">
+                               <p><label for>
+                                   Por favor, indique su sexo:
+                               </label> <br>
+                                   <input type="radio" value="h"> Hombre <br>
+                                   <input type="radio" value="m"> Mujer <br>
+                                   <input type="radio" value="nocontesta"> Prefiero no contestar
+                               </p>
+                            </div>
+                            <div class="form-input" id="nationality">
+                                <p><label for>
+                                    Nacionalidad:
+                                </label>
+                                <input type="text" size="20"></p>
+                            </div>
+                        </fieldset>
+                    </td>
+                    <td>
+                        <fieldset>
+                            <legend>Intereses</legend>
+                            <div class="form-input2" id="menumarcas">
+                                <p><label for>
+                                    Selecciona la marca con la que le gustaría contactar:
+                                    </label>
+                                <center>
+                                    <select name="menu">
+                                        <option value="zara">Zara</option>
+                                        <option value="pull">Pull&Bear</option>
+                                        <option value="massimo">Massimo Dutti</option>
+                                        <option value="bershka">Bershka</option>
+                                        <option value="stradivarius">Stradivarius</option>
+                                        <option value="oysho">Oysho</option>
+                                        <option value="zarah">Zara Home</option>
+                                        <option value="uterque">Uterqüe</option>
+                                    </select>
+                                </center>
+                            </div>
+                            <br>
+                            <div class="form-input2" id="addinfo">
+                                <p><label for>
+                                    Añada algo, si es necesario, acerca de su petición:
+                                </label> <br>
+                                <textarea rows="4" cols="40" placeholder="Escriba algo"></textarea></p>
+                            </div>
+                        </fieldset>
+                     </td>
+                 </tr>
+                 <tr>
+                     <td>
+                        <fieldset>
+                            <legend>Decisión</legend>
+                            <div class="form-input3" id="casilla">
+                                <p>
+                                    <label for>
+                                        Para enviar el formulario debe aceptar los
+                                    </label>
+                                    <a href="https://www.inditex.com/es/legal" target="_blank">Términos y Condiciones legales</a>
+                                    <input type ="checkbox" required="required">
+                                </p>
+                            </div>
+                            <div class="form-input3" id="form-buttons">
+                                <center>
+                                    <p>
+                                        <button type="reset" id="button-delet">
+                                            Borrar
+                                        </button>
+                                        <button type="submit" id="button-send">
+                                            Enviar
+                                        </button>
+                                    </p>
+                                </center>
+                            </div>
+                        </fieldset>
+                     </td>
+                     <td>
+                         <div id="thanks">
+                             <center>
+                                 <h3>Gracias por su interés</h3>
+                                 <img src="fotos/logoinditexc.png" width="75"><br>
+                             </center>
+                         </div>
+                     </td>
+                 </tr>
+            </tbody>
+            </table>
+            </center>
+        </form>
+    </main>
+
+</body>
+</html>
