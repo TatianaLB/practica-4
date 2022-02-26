@@ -33,7 +33,7 @@ async function API(){
 
 async function getDatos(){
     let data = await API();
-    let res = new Array(1);
+    let res = new Array();
     res.push(data.results.sunrise);
     res.push(data.results.sunset);
     res.push(data.results.solar_noon);
