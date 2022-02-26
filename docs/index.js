@@ -59,8 +59,5 @@ async function getDatos(){
     document.getElementById("mostrarInfo10").innerHTML = "Astronomical twilight end:" + res[10] + "\n";
 
 }
-function submitForm (){
-      document.getDatos();;
-    }
 
 getDatos();
